@@ -53,7 +53,7 @@ const Mainplatform = () => {
             email : currentUser.email,
             theme : currentTheme
         }).then(res=>{
-            updateTheme(res.data.mode);
+            //updateTheme(res.data.mode);
         },err=>{
             console.log(err);
         })
